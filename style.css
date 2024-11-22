@@ -45,12 +45,14 @@ header {
 }
 
 /* Bio Section */
-.bio-section {
+.content-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-}
+  max-width: 900px; /* Control the width for alignment */
+  margin: 0 auto; /* Center the container */
+  padding: 20px 0;
+  
 
 .bio-left {
   flex: 1;
