@@ -58,12 +58,14 @@ header {
 }
 
 .bio-left img {
-  width: 150px; /* Adjust the size as needed */
-  height: 150px; /* Ensure height matches width for a perfect circle */
-  border-radius: 50%; /* Makes the photo a circle */
-  object-fit: cover; /* Ensures the image scales nicely inside the circle */
+  width: 75px; /* Reduced size for half the original */
+  height: 75px; /* Ensure height matches width */
+  border-radius: 50%; /* Makes the image a perfect circle */
+  object-fit: cover; /* Ensures the image scales proportionally and fills the circle */
   border: 3px solid #ddd; /* Optional: Adds a border around the photo */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
 }
 
 
