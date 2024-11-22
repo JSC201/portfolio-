@@ -20,28 +20,31 @@ header {
   margin: 0;
 }
 
-.header-right nav ul {
+/* Navigation Bar */
+.header-right ul {
   list-style: none;
+  display: flex; /* Ensures the list items are horizontal */
+  gap: 20px; /* Adds space between items */
   padding: 0;
   margin: 0;
-  display: flex;
-  gap: 20px;
 }
 
-.header-right nav ul li {
-  display: inline;
+.header-right ul li {
+  display: inline; /* Each list item is inline */
 }
 
-.header-right nav ul li a {
+.header-right ul li a {
   text-decoration: none;
   color: #333;
   font-size: 18px;
+  padding: 10px 15px;
 }
 
-.header-right nav ul li a:hover {
+.header-right ul li a:hover {
   text-decoration: underline;
 }
 
+/* Bio Section */
 .bio-section {
   display: flex;
   justify-content: space-between;
@@ -101,3 +104,4 @@ footer {
   border-top: 1px solid #ddd;
   margin-top: 20px;
 }
+
