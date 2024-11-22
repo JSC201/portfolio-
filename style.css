@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-left h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header-right nav h2 {
+  margin: 0 0 10px;
+}
+
+.header-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header-right ul li {
+  margin: 5px 0;
+}
+
+.header-right ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bio-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.bio-left {
+  flex: 2;
+}
+
+.bio-left h2 {
+  font-size: 28px;
+}
+
+.bio-right {
+  flex: 1;
+  text-align: center;
+}
+
+.bio-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.updates-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.whats-new,
+.recent-posts {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.whats-new h2,
+.recent-posts h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
