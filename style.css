@@ -58,8 +58,8 @@ header {
 }
 
 .bio-left img {
-  width: 75px; /* Reduced size for half the original */
-  height: 75px; /* Ensure height matches width */
+  width: 150px; /* Reduced size for half the original */
+  height: 150px; /* Ensure height matches width */
   border-radius: 50%; /* Makes the image a perfect circle */
   object-fit: cover; /* Ensures the image scales proportionally and fills the circle */
   border: 3px solid #ddd; /* Optional: Adds a border around the photo */
