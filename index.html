@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JSC's Homepage</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script>
+    function test() {
+      const elements = document.getElementsByClassName("bio-right").textContent="I changed your text content."; 
+    };
+  </script>
 </head>
 <body>
   <header>
@@ -37,7 +42,7 @@
         biomedical wearables. Beyond my academic pursuits, I enjoy writing and experimenting with music. 
         I’m always open to collaborating or having a thoughtful conversation—feel free to reach out!</p>
     </div>
-      <button type="button" class="btn btn-default">Left</button>
+      <button type="button" class="btn btn-default" onClick="test()">Test Button</button>
   </section>
 
   <hr>
