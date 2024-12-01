@@ -7,8 +7,15 @@
   <link rel="stylesheet" href="style.css">  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <script>
+    var toggle = true;
     function test() {
-      document.getElementById("test-id").textContent="I changed your text content."; 
+      if (toggle) {
+        document.getElementById("test-id").textContent="I changed your text content.";
+      }
+      else {
+        document.getElementById("test-id").textContent="Welcome! I’m a student at Columbia University, where I’m studying Neural Intelligence. My work focuses on the intersection of AI and neuroscience, particularly how it can drive innovation in fields like financial systems, healthcare technologies, and biomedical wearables. Beyond my academic pursuits, I enjoy writing and experimenting with music. I’m always open to collaborating or having a thoughtful conversation—feel free to reach out!";
+      }
+      toggle = !toggle;
     };
   </script>
 </head>
